@@ -1,0 +1,93 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+@media print {
+.slider{
+    display:none;
+}
+.btn2 {
+display: none;
+}
+.floor-plan {
+    border:none;
+    /*padding-top:250px;*/
+/*padding-top: 450px;*/
+}
+.plan {
+    padding-top:200px;
+}
+.tour {
+display: none;
+   }
+
+.tour_custom{
+    display:block;
+    margin-top:10px;
+    width:90%;
+    margin-right:70px;
+    border:none;
+}
+.footer-distributed{
+    /*display:none;*/
+}
+.row{
+    display:flex;
+    margin-left:20%;
+}
+.column{
+    display:block;
+}
+
+
+
+}

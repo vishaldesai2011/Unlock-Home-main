@@ -1,0 +1,751 @@
+﻿.slider {
+    width: 90%;
+    margin-left: 5%;
+    height: 600px;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slider_left {
+    width: 100%;
+    height: 100%;
+    background-color: chartreuse;
+    position: relative;
+}
+/* .slider_right{
+            width:50%;
+            height:400px;
+            background-color:rosybrown;
+        }*/
+
+.name1 {
+    width: 90%;
+    margin-left: 5%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*background-color:pink;*/
+    /*height:90px;*/
+    margin-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.prop_name {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+
+.prop_price {
+    width: 50%;
+    height: 100%;
+    /*background-color:darkslategrey;*/
+    text-align: right;
+}
+
+.dis {
+}
+
+.icon {
+    padding-top: 20px;
+}
+
+.tab1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+    font-size: 14px;
+}
+
+.tab_tr {
+    border: 1px solid black;
+}
+/*.tab_tr1 {
+    border:none;
+}*/
+
+
+th {
+    border: 2px dashed gray;
+    font-size: 13px;
+}
+.th {
+    height:auto;
+    width:auto;
+    border: none;
+    /*background-color: gray;*/
+    border-spacing: 10px;
+}
+
+.w3-left {
+    float: left;
+    right: 95%;
+    position: absolute;
+    bottom: 45%;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 30px;
+    color: white;
+}
+
+.w3-right {
+    left: 95%;
+    position: absolute;
+    float: right;
+    bottom: 45%;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 30px;
+    color: white;
+}
+
+img {
+    height: 100%;
+}
+
+.tab2 {
+    float: right;
+}
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    height: 500px;
+}
+
+.house {
+    width: 65%;
+    height: 100%;
+    margin-top: 20px;
+    /*background-color:blueviolet;*/
+}
+
+.other_details {
+    margin-top: 20px;
+    width: 35%;
+    height: 450px;
+    background-color: rgb(74,73,89);
+    /*background-color: #00bf71;*/
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    box-shadow: 10px 10px black;
+}
+
+#dis {
+    color: white;
+}
+
+#cal {
+    color: white;
+}
+
+.featurs_h1 {
+    margin-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.featurs_p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 85%;
+}
+
+.details {
+    font-family: Arial;
+}
+
+.fd {
+    font-family: 20px;
+    width: 80%;
+    /*font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-family: Arial;
+    font-size: 15px;
+    overflow: hidden;
+    color: gray;
+}
+
+.fd1 {
+    color: black;
+}
+
+.tab_details {
+    margin-top: 10px;
+    width: 80%;
+}
+
+.h2 {
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ico {
+    /*border-bottom:1px solid gray;*/
+    width: 8%;
+}
+
+.iconify-icon {
+    vertical-align: bottom; /* Adjust the value as needed */
+}
+
+.calc_title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    /*border:2px solid black;*/
+}
+
+.emi {
+    width: 80%;
+    height: 40px;
+    justify-items: center;
+    margin-left: 10%;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+
+::placeholder {
+    padding-left: 5px;
+    color: dimgray;
+}
+
+    ::placeholder:hover {
+        padding-left: 5px;
+        color: blue;
+    }
+
+.rate1 {
+    border-radius: 7px;
+    margin-top: 12px;
+    margin-left: 10%;
+    text-align: center;
+    border: 1px solid white;
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#rate {
+    background-color: aquamarine;
+}
+
+.rate2 {
+    margin-left: 10%;
+    text-align: center;
+    border: 1px solid white;
+    width: 80%;
+    margin-top: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lbl {
+    position: relative;
+    margin-left: 11%;
+    bottom: -10px;
+    color: whitesmoke;
+}
+
+.prop_utility {
+    margin-left: 5%;
+    margin-right: 5%;
+    /*background-color:lightpink;*/
+    width: 90%;
+    height: 400px;
+    display: flex;
+}
+
+.house1 {
+    width: 65%;
+    height: 100%;
+}
+
+.tour {
+    width: 35%;
+    height: 350px;
+    float: right;
+    background-color: white;
+    border: 0.5px solid gray;
+    border-radius: 7px;
+    /*ackground-color:rgb(74,73,89);
+            border-radius:10px;
+             border:2px solid black;
+             margin-top:20px;
+              box-shadow:10px 10px black;*/
+}
+
+.hh2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.asp_form {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.lbl2 {
+    margin-left: 15%;
+}
+
+#me {
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 40px;
+    width: 70%;
+    background-color: black;
+    border: none;
+    color: white;
+    /*border:1px solid black;*/
+}
+
+    #me:hover {
+        margin-top: 20px;
+        margin-left: 15%;
+        margin-right: 15%;
+        height: 40px;
+        width: 70%;
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+        /*border:1px solid black;*/
+    }
+
+.logo {
+    width: auto;
+    height: 60px;
+}
+
+.near_h2 {
+    font-size: 18px;
+    /*margin-top:20px;*/
+    /*margin-left:5%;*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.near {
+    /*margin-left:5%;*/
+    margin-top: 10px;
+    width: 60%;
+}
+
+.ami {
+    width: 300px;
+    font-size: 20px;
+    font-family: Arial;
+    height: 30px;
+    color: gray;
+}
+
+.near_by {
+    width: 90%;
+    /*height:400px;*/
+}
+
+.tour2 {
+    position: absolute;
+    bottom: -1655px;
+    left: 730px;
+    /*float:right;*/
+    width: 60%;
+    display: flex;
+}
+
+.tour_custom {
+    background-color: white;
+    border: none;
+}
+
+.near {
+    width: 100%;
+}
+
+.floor-plan {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /*height: 700px;*/
+    height:auto;
+    background-color: white;
+    border: 5px solid black;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.plan {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left:5%;
+}
+.floor-plan-image{
+    width:90%;
+    margin-left:5%;
+    height:550px;
+}
+.btn2 {
+    width: 80px;
+    height: 30px;
+    background-color: #02a1f2;
+    color:white;
+    border:none;
+
+}
+    .btn2:hover {
+        width: 80px;
+        height: 30px;
+        background-color: white;
+        color: #02a1f2;
+        border: 1px solid #02a1f2;
+        cursor:pointer;
+    }
+    .row{
+        display:none;
+    }
+    .column {
+    display: none;
+    }
+/*Footer*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+/** {
+  font-family: Open Sans;
+}*/
+section {
+    width: 100%;
+    display: inline-block;
+    background: #333;
+    height: 50vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.footer-distributed {
+    background: black;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+}
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    /* Footer left */
+
+    .footer-distributed .footer-left {
+        width: 40%;
+    }
+
+    /* The company logo */
+
+    .footer-distributed h3 {
+        color: #ffffff;
+        font: normal 36px 'Open Sans', cursive;
+        margin: 0;
+    }
+
+        .footer-distributed h3 span {
+            color: lightseagreen;
+        }
+
+    /* Footer links */
+
+    .footer-distributed .footer-links {
+        color: #ffffff;
+        margin: 20px 0 12px;
+        padding: 0;
+    }
+
+        .footer-distributed .footer-links a {
+            display: inline-block;
+            line-height: 1.8;
+            font-weight: 400;
+            text-decoration: none;
+            color: inherit;
+        }
+
+    .footer-distributed .footer-company-name {
+        color: gray;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+    }
+
+    /* Footer Center */
+
+    .footer-distributed .footer-center {
+        width: 35%;
+    }
+
+        .footer-distributed .footer-center i {
+            background-color: #33383b;
+            color: #ffffff;
+            font-size: 25px;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 42px;
+            margin: 10px 15px;
+            vertical-align: middle;
+        }
+
+            .footer-distributed .footer-center i.fa-envelope {
+                font-size: 17px;
+                line-height: 38px;
+            }
+
+        .footer-distributed .footer-center p {
+            display: inline-block;
+            color: #ffffff;
+            font-weight: 400;
+            vertical-align: middle;
+            margin: 0;
+        }
+
+            .footer-distributed .footer-center p span {
+                display: block;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 2;
+            }
+
+            .footer-distributed .footer-center p a {
+                color: lightseagreen;
+                text-decoration: none;
+                ;
+            }
+
+    .footer-distributed .footer-links a:before {
+        content: "|";
+        font-weight: 300;
+        font-size: 20px;
+        left: 0;
+        color: #fff;
+        display: inline-block;
+        padding-right: 5px;
+    }
+
+    .footer-distributed .footer-links .link-1:before {
+        content: none;
+    }
+
+    /* Footer Right */
+
+    .footer-distributed .footer-right {
+        width: 20%;
+    }
+
+    .footer-distributed .footer-company-about {
+        line-height: 20px;
+        color: #92999f;
+        font-size: 13px;
+        font-weight: normal;
+        margin: 0;
+    }
+
+        .footer-distributed .footer-company-about span {
+            display: block;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+    .footer-distributed .footer-icons {
+        margin-top: 25px;
+    }
+
+        .footer-distributed .footer-icons a {
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+            background-color: #33383b;
+            border-radius: 2px;
+            font-size: 20px;
+            color: #ffffff;
+            text-align: center;
+            line-height: 35px;
+            margin-right: 3px;
+            margin-bottom: 5px;
+        }
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+        .footer-distributed .footer-left,
+        .footer-distributed .footer-center,
+        .footer-distributed .footer-right {
+            display: block;
+            width: 100%;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+            .footer-distributed .footer-center i {
+                margin-left: 0;
+            }
+}
+
+
+
+
+
+
+
+
+@media print {
+    #nav {
+        display: none;
+    }
+
+    #print1 {
+        display: none;
+    }
+
+    #tab2 {
+        border: none;
+        display: none;
+    }
+
+    #tr1 {
+        border: none;
+    }
+
+    .house {
+        width: 100%;
+    }
+
+    .other_details {
+        display: none;
+    }
+
+    .tour {
+        display: none;
+    }
+
+    .tour2 {
+        display: none;
+    }
+
+    near {
+        width: 1200px;
+    }
+}
+
+@media (max-width: 800px) {
+    .name1 {
+        flex-direction: row;
+        height: 160px;
+    }
+
+    img {
+        height: auto;
+    }
+
+    .slider {
+        height: auto;
+    }
+
+    .prop_name {
+        width: 100%;
+        height: 50%;
+    }
+
+    .prop_price {
+        width: 100%;
+        height: 50%;
+        text-align: left;
+    }
+
+    .tab2 {
+        float: left;
+    }
+
+    .description {
+        height: 450px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .house {
+        margin-top: 20px;
+        width: 100%;
+        background-color: white;
+    }
+
+    .other_details {
+        display: none;
+    }
+
+    .prop_utility {
+        height: auto;
+        display: block;
+    }
+
+    .house1 {
+        margin-top: 80px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .tour {
+        /*position:relative;*/
+        width: 100%;
+        height: 350px;
+        float: right;
+        background-color: aquamarine;
+        background-color: #fbfbfb;
+        border: 0.5px solid gray;
+        /*bottom:500px;*/
+    }
+
+    .tour2 {
+        display: none;
+    }
+
+    .floor-plan-image {
+        width:contain;
+        margin-left: 5%;
+        height: min-content;
+    }
+    floor-plan{
+        margin-top:30px;
+    }
+}
